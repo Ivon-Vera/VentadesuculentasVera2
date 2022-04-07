@@ -507,7 +507,7 @@ width: 100%;
 
     .finalInicio{
         grid-area: pie;
-        margin-top: 170px;
+        margin-top: 190px;
     }
 
     @keyframes fondoColor{
@@ -536,11 +536,15 @@ width: 100%;
     }
 
     .contenidoPrincipal img{
-        width: 300px;
-        transition: width 3s;
+        width: 400px;
+        height: 300px;
+        transition: all 3s;
     }
 
     .contenidoPrincipal img:hover {
-        width: 400px;
+        width: 600px;
+        height: 400px;
+        filter: none;
+        transform: rotate(360deg);
     }
     
