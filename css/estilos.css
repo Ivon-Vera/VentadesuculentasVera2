@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+    background-color: #EBFFAF;
+}
+.navegacion{
+    background-color: #8CBA51;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #564a4a;
+    font-weight: bolder;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    font-weight: bolder;
+    color: #564a4a;
+}
+.submenu li{
+    display: block;
+}
+.menu li:hover ul{
+    display: block;
+    background-color: #8CBA51;
+}
+
+/*
+.logoImg{
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    
+}
+.titulo{
+    text-align: center;
+    color: #564a4a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #EE9494;
+    
+}
+*/
+.otrostitulos{
+    color: #564a4a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    color: #564a4a;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.p--productos{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.imgSuculentas{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+/*
+.cuerpoDeTexto{
+    background-color: #EBFFAF;
+}
+*/
+.p--envios{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.cuerpoEnvios{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.cuerpoEnvios h3{
+    color: #043808a4;
+    text-align: center;
+
+}
+
+.lugarEnvios{
+    padding-left: 500px;
+}
+
+.p--contacto{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.cuerpoDeTexto--contacto{
+    padding: 20px;
+    padding-top: 15px;
+
+}
+.enviar{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+
+
+.box{
+padding-left: 10px;
+padding-right: 10px;  
+}
+
+.box .destacado{
+    text-align: center;
+    font-size: 30px;   
+}
+.boxImg{
+    width: 300px;
+    height:400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.boxImg2{
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.boxImg3{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.boxImg4{
+    width: 300px;
+    height: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.boxImg5{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box p{
+    color: #564a4a;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.box a{
+    color: #564a4a;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.box h3{
+    
+    color: #043808a4;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.orden{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 60px 90px ;
+}
+
+.orden div{
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;   
+    }
+
+.orden a{
+        text-decoration: none;
+    }
+
+.orden h3{
+        margin: 0px;
+        padding: 0px;
+        color: #043808a4;  
+    
+    }
+
+
+.box .productosImg{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+/*NOSOTROS*/
+/*
+.p--nosotros{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.imgNosotros{
+    margin-right: 50px;
+    margin-left: 525px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+*/
+
+
+.contenedorNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr 0.4fr 0.60fr 0fr;
+    grid-template-areas: 
+    "navegacion navegacion"
+    "titulo titulo"
+    "contenido contenido"
+    "pie pie";
+    
+
+}
+
+.navegacionNosotros{
+    grid-area: navegacion;
+    grid-template-columns: 1/2;
+    
+}
+.tituloNosotros{
+    grid-area: titulo;
+    grid-template-columns: 1/2;
+    
+
+}
+.contenidoNosotros{
+    grid-area: contenido;
+}
+
+.contenidoNosotros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.finalNosotros{
+grid-area: pie;
+margin-top: 200px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.finalContacto{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+
+
+
+
+
+
+
+/*final*/
+
+.pie {
+    background-color: #EE9494;
+    text-align: center;
+    }
+
+.pie a{
+        text-decoration: none;
+        color: #564a4a;
+        font-weight: bolder;
+    }
+
+
+
+    /* Paginainiciocongridsyflex*/
+/*
+    .contenedorInicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr 0.1fr 0.40fr 0fr;
+    grid-template-areas: 
+    "navegacion navegacion"
+    "titulo titulo"
+    "contenido contenido"
+    "pie pie";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    .navegacionPrincipal{
+        grid-area: navegacion;
+    }
+    .tituloPrincipal{
+        grid-area: titulo;
+    }
+    .contenidoPrincipal{
+        grid-area: contenido;
+        
+    }
+    */
+    .contenidoPrincipal{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-top: 5px;
+    
+    }
+
+
+
+    
+
+/*
+    @media screen and (min-width:320px){
+        .navegacionPrincipal ul{
+            background-color: #F9975D;
+            font-size: 10px;
+        }
+            .imgNosotros{
+                width: 160px;
+                height: 160px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .imagenInicio{
+                width: 160px;
+                height: 160px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .tituloPrincipal h2{
+                background-color: #FBD148;
+                font-size: 15px;
+            }
+    
+            html{
+            background-color: #B2EA70;
+            }
+    
+            .navegacion ul li{
+                display: block;
+                text-align: center;
+                font-size: 10px;
+            }
+            .finalInicio{
+            background-color: #FBD148;
+            font-size: 10px;
+            }
+            .contenidoNosotros{
+            text-align: center;
+            }
+            
+            .navegacionNosotros ul{
+                background-color: #F9975D;
+                font-size: 10px;
+            }
+            
+            
+            .tituloNosotros h2{
+                background-color: #FBD148;
+                font-size: 15px;
+            }
+            .finalNosotros{
+                background-color: #FBD148;
+                font-size: 10px;
+            }
+        
+    }
+    @media screen and (min-width:768px){
+        .navegacionPrincipal ul{
+        background-color: #4AA96C;
+        font-size: 15px;
+    }
+        .navegacionPrincipal li:hover ul{
+            background-color: #4AA96C;
+        }
+        .imgNosotros{
+            width: 300px;
+            height: 300px;
+        }
+        
+        .tituloPrincipal h2{
+            background-color: #F55C47;
+            font-size: 20px;
+        }
+        html{
+        background-color: #b0d4b0;
+        }
+        .navegacion ul li{
+            display: block;
+            text-align: center;
+            font-size: 15px;
+        }
+        .finalInicio{
+        background-color: #F55C47;
+        font-size: 15px;
+        }
+        
+        .navegacionNosotros ul{
+            background-color: #4AA96C;
+        }
+        .navegacionNosotros li:hover ul{
+            background-color: #4AA96C;
+        }
+        .tituloNosotros h2{
+            background-color: #F55C47;
+            font-size: 20px;
+        }
+        .finalNosotros{
+            background-color: #F55C47;
+            font-size: 15px;
+        }
+    }
+    @media screen and (min-width:1200px){
+        .navegacionPrincipal ul{
+            background-color: #8CBA51;
+        }
+            .navegacionPrincipal li:hover ul{
+                background-color: #8CBA51;
+            }
+            
+            .tituloPrincipal h2{
+                background-color: #FF5D6C;
+            }
+    
+            html{
+            background-color: #DEFF8B;
+            }
+    
+            .navegacion ul li{
+            display: inline-block;
+            position: relative;
+            font-size: 20px;
+            padding: 10px 10px;;
+            }
+            .finalInicio{
+            background-color: #8CBA51;
+            font-size: 20px;
+            }
+            
+            .navegacionNosotros ul{
+                background-color: #8CBA51;
+            }
+            .navegacionNosotros li:hover ul{
+                background-color: #8CBA51;
+    
+            }
+            .tituloNosotros h2{
+                background-color: #FF5D6C;
+            }
+            .finalNosotros{
+                background-color: #FF5D6C;
+                font-size: 20px;
+            }
+        
+    }
+    
+    
+    .imagenInicio{
+        width: 300px;
+        height: 300px;
+    }
+*/
+    .finalInicio{
+        grid-area: pie;
+        margin-top: 170px;
+    }
+
+    @keyframes fondoColor{
+        0% { background-color: #FFB6B9;
+        }
+        40% { background-color: #ED9A73;
+    
+        }
+    
+        70%{background-color: #FF9090;
+    
+        }
+        100%{ background-color: #EE9494;
+    
+        }
+    }   
+    
+    .titulo{
+        animation-name: fondoColor;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        text-align: center;
+        color: #564a4a;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .contenidoPrincipal img{
+        width: 300px;
+        transition: width 3s;
+    }
+
+    .contenidoPrincipal img:hover {
+        width: 400px;
+    }
