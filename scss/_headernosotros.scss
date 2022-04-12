@@ -11,6 +11,10 @@ a{
     color: #564a4a;
     font-weight: bolder;
 }
+&:hover ul{
+    display: block;
+    background-color: #8CBA51;
+}
 }
 .submenu{
     display: none;
@@ -19,9 +23,5 @@ a{
     color: #564a4a;
 li{
     display: block;
-    &:hover{
-        display: block;
-        background-color: #8CBA51;
-    }
 }
 }
