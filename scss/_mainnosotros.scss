@@ -1,0 +1,23 @@
+@keyframes fondoColor{
+    0% { background-color: #FFB6B9;
+    }
+    40% { background-color: #ED9A73;
+
+    }
+
+    70%{background-color: #FF9090;
+
+    }
+    100%{ background-color: #EE9494;
+
+    }   
+}
+.titulo{
+    animation-name: fondoColor;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    text-align: center;
+    color: #564a4a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
