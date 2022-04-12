@@ -39,25 +39,27 @@ html {
 
 .navegacion {
   background-color: #8CBA51; }
-  .navegacion .menu li {
-    display: inline-block;
-    position: relative;
-    font-size: 20px;
-    padding: 10px 10px; }
-    .navegacion .menu li a {
-      text-decoration: none;
-      color: #564a4a;
-      font-weight: bolder; }
-    .navegacion .menu li .submenu {
-      display: none;
-      position: absolute;
-      font-weight: bolder;
-      color: #564a4a; }
-      .navegacion .menu li .submenu li {
-        display: block; }
-        .navegacion .menu li .submenu li:hover ul {
-          display: block;
-          background-color: #8CBA51; }
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  padding: 10px 10px; }
+  .menu li a {
+    text-decoration: none;
+    color: #564a4a;
+    font-weight: bolder; }
+
+.submenu {
+  display: none;
+  position: absolute;
+  font-weight: bolder;
+  color: #564a4a; }
+  .submenu li {
+    display: block; }
+    .submenu li:hover {
+      display: block;
+      background-color: #8CBA51; }
 
 @keyframes fondoColor {
   0% {

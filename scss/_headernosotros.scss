@@ -1,6 +1,6 @@
 .navegacion{
     background-color: #8CBA51;
-
+}
 .menu li{
     display: inline-block;
     position: relative;
@@ -11,7 +11,7 @@ a{
     color: #564a4a;
     font-weight: bolder;
 }
-
+}
 .submenu{
     display: none;
     position: absolute;
@@ -19,11 +19,9 @@ a{
     color: #564a4a;
 li{
     display: block;
-&:hover ul{
-    display: block;
-    background-color: #8CBA51;
-}
-}
-}
+    &:hover{
+        display: block;
+        background-color: #8CBA51;
+    }
 }
 }
