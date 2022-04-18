@@ -1,0 +1,82 @@
+.finalNosotros{
+    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+    .pie{
+        background-color: #EE9494;
+        text-align: center;
+    a{
+            text-decoration: none;
+            color: #564a4a;
+            font-weight: bolder;
+        }
+    }
+    
+$redes: (
+    whatsapp: #48c96f,
+    facebook:  #3a5795
+); 
+
+@each $red, $color in $redes {
+.#{$red} {
+   background-color: $color;
+   color: #ffff;
+   border: 1px solid black;
+
+}
+}
+
+$formas: (
+    tFuente: 15px,
+    
+);
+
+.whatsapp{
+    font-size: map-get($formas, tFuente )
+}
+
+.facebook{
+    font-size: map-get($formas, tFuente )
+}
+
+.orden2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+.orden3{
+    margin-left: 15px;
+}
+
+.boton {
+	background-color:rgb(192, 99, 99);
+	color: #ffff;
+	border:1px solid black;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.boton--prueba{
+	@extend .boton;
+	background-color:rgb(243, 253, 146);
+    color: #564a4a
+
+}
+
+@mixin prueba2($back, $color, $borde, $tam, $margen) {
+    background-color: $back;
+    color: $color;
+    border: $borde;
+    font-size: $tam;
+    margin-left: $margen;
+}
+.box2 {
+    @include prueba2(rgb(226, 186, 55), #564a4a, 1px solid black, 15px, 15px );
+}
+
+

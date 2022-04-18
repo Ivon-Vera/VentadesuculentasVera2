@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+    background-color: #EBFFAF;
+}
+.contenedorNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr 0.4fr 0.60fr 0fr;
+    grid-template-areas: 
+    "navegacion navegacion"
+    "titulo titulo"
+    "contenido contenido"
+    "pie pie";
+    
+
+}
+
+.navegacionNosotros{
+    grid-area: navegacion;
+    grid-template-columns: 1/2;
+    
+}
+.tituloNosotros{
+    grid-area: titulo;
+    grid-template-columns: 1/2;
+    
+
+}
+.contenidoNosotros{
+    grid-area: contenido;
+}
+
+.contenidoNosotros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    p{
+        color: #564a4a;
+        font-weight: bolder;
+        font-family: cursive;
+    }
+}
