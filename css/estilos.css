@@ -141,9 +141,9 @@ padding-right: 10px;
 .boxImg2{
     width: 400px;
     height: 300px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
 
 }
 
@@ -202,7 +202,7 @@ padding-right: 10px;
     padding: 10px 60px 90px ;
 }
 
-.orden div{
+.orden article{
     margin: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -219,7 +219,6 @@ padding-right: 10px;
         color: #043808a4;  
     
     }
-
 
 .box .productosImg{
     width: 150px;
@@ -305,6 +304,7 @@ width: 100%;
 .pie {
     background-color: #EE9494;
     text-align: center;
+    
     }
 
 .pie a{
@@ -542,4 +542,9 @@ width: 100%;
 
     .contenidoPrincipal img:hover {
         width: 400px;
+    }
+
+    .suculentas{
+        padding: 0%;
+        margin: 0%;
     }
