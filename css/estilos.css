@@ -185,12 +185,26 @@ padding-right: 10px;
     margin-bottom: 20px;
 }
 
+.box strong{
+    color: #043808a4;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .box h3{
     
     color: #043808a4;
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.box h2{
+    margin-left: 10px;
+    margin-right: 10px;
+        padding: 0px;
+        color: #043808a4;  
+    
 }
 
 
@@ -201,6 +215,12 @@ padding-right: 10px;
     justify-content: space-evenly;
     padding: 10px 60px 90px ;
 }
+.orden div{
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
 
 .orden article{
     margin: 60px;
@@ -208,7 +228,11 @@ padding-right: 10px;
     margin-bottom: 10px;
     font-size: 20px;   
     }
-
+.orden strong{
+    margin: 0px;
+    padding: 0px;
+    color: #043808a4;
+}
 .orden a{
         text-decoration: none;
     }
@@ -219,6 +243,7 @@ padding-right: 10px;
         color: #043808a4;  
     
     }
+
 
 .box .productosImg{
     width: 150px;
