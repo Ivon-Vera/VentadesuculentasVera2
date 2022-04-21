@@ -13,6 +13,21 @@ html{
 }
 .navegacion{
     background-color: #8CBA51;
+    z-index: 1000;
+}
+
+.pinicio{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ text-align: center;
+}
+.pinicio2{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
 }
 .menu li{
     display: inline-block;
@@ -576,4 +591,9 @@ width: 100%;
     .suculentas{
         padding: 0%;
         margin: 0%;
+    }
+
+    .navin{
+        margin-top: 100px;
+        z-index: 1000;
     }
