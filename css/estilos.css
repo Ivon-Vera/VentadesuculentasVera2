@@ -7,6 +7,10 @@ html{
     font-size: 62,5%;
     background-color: #EBFFAF;
 }
+.contenido{
+    background-color: #EBFFAF;
+   width: 100%;
+}
 .navegacion{
     background-color: #8CBA51;
 }
