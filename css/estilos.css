@@ -15,6 +15,28 @@ html{
     background-color: #8CBA51;
     z-index: 1000;
 }
+.redes{
+    background-color: #48c96f;
+    color: #ffff;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.redes2{
+    background-color: #3a5795;
+    color: #ffff;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.ordenTodo{   
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 5px;
+    padding-right: 5px;
+
+}
 
 .pinicio{
     font-size: 40px;
@@ -597,3 +619,7 @@ width: 100%;
         margin-top: 100px;
         z-index: 1000;
     }
+
+.contenedorC{
+height: 530px;
+}

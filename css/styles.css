@@ -114,21 +114,3 @@ html {
 
 .orden3 {
   margin-left: 15px; }
-
-.boton, .boton--prueba {
-  background-color: #c06363;
-  color: #ffff;
-  border: 1px solid black;
-  font-size: 15px;
-  margin-left: 15px; }
-
-.boton--prueba {
-  background-color: #f3fd92;
-  color: #564a4a; }
-
-.box2 {
-  background-color: #e2ba37;
-  color: #564a4a;
-  border: 1px solid black;
-  font-size: 15px;
-  margin-left: 15px; }

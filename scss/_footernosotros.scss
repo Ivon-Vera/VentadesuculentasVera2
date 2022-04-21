@@ -13,7 +13,7 @@
             font-weight: bolder;
         }
     }
-    
+      
 $redes: (
     whatsapp: #48c96f,
     facebook:  #3a5795
@@ -53,30 +53,6 @@ $formas: (
     margin-left: 15px;
 }
 
-.boton {
-	background-color:rgb(192, 99, 99);
-	color: #ffff;
-	border:1px solid black;
-    font-size: 15px;
-    margin-left: 15px;
-}
 
-.boton--prueba{
-	@extend .boton;
-	background-color:rgb(243, 253, 146);
-    color: #564a4a
-
-}
-
-@mixin prueba2($back, $color, $borde, $tam, $margen) {
-    background-color: $back;
-    color: $color;
-    border: $borde;
-    font-size: $tam;
-    margin-left: $margen;
-}
-.box2 {
-    @include prueba2(rgb(226, 186, 55), #564a4a, 1px solid black, 15px, 15px );
-}
 
 
