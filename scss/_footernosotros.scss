@@ -53,6 +53,31 @@ $formas: (
     margin-left: 15px;
 }
 
+.boton {
+	background-color:rgb(192, 99, 99);
+	color: #ffff;
+	border:1px solid black;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.boton--prueba{
+	@extend .boton;
+	background-color:rgb(65, 130, 184);
+    color: hsl(0, 0%, 100%)
+
+}
+
+@mixin prueba2($back, $color, $borde, $tam, $margen) {
+    background-color: $back;
+    color: $color;
+    border: $borde;
+    font-size: $tam;
+    margin-left: $margen;
+}
+.box2 {
+    @include prueba2(rgb(197, 72, 180), hsl(0, 0%, 100%), 1px solid black, 15px, 15px );
+}
 
 
 
