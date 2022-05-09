@@ -13,8 +13,11 @@ html{
 }
 .navegacion{
     background-color: #8CBA51;
-    z-index: 1000;
+   
+    margin: 0% 0px 0px;
+    padding: 0% 0px 0px 0px;
 }
+
 .redes{
     background-color: #48c96f;
     color: #ffff;
@@ -29,7 +32,20 @@ html{
     margin-left: 15px;
 }
 
-
+.redes3{
+    background-color: #4182b8;
+    color: #ffff;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.redes4{
+    background-color: #c548b4;
+    color: #ffff;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-left: 15px;
+}
 
 
 
@@ -281,49 +297,6 @@ padding-right: 10px;
 
 
 
-.contenedorNosotros{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0fr 0.4fr 0.60fr 0fr;
-    grid-template-areas: 
-    "navegacion navegacion"
-    "titulo titulo"
-    "contenido contenido"
-    "pie pie";
-    
-
-}
-
-.navegacionNosotros{
-    grid-area: navegacion;
-    grid-template-columns: 1/2;
-    
-}
-.tituloNosotros{
-    grid-area: titulo;
-    grid-template-columns: 1/2;
-    
-
-}
-.contenidoNosotros{
-    grid-area: contenido;
-}
-
-.contenidoNosotros{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-.finalNosotros{
-grid-area: pie;
-margin-top: 200px;
-position: absolute;
-bottom: 0;
-width: 100%;
-}
 .finalContacto{
     position: absolute;
     bottom: 0;
@@ -396,3 +369,39 @@ width: 100%;
 .contenedorC{
 height: 530px;
 }
+
+@media screen and (min-width: 768px){
+    .orden{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        padding: 10px 10px 10px ;
+    }
+    .productosImg{
+        width: 100px;
+        height: 100px;
+    }
+    .espacio{
+        padding-left:  32px;
+    }
+    .ordenTodo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5px;
+        padding-right: 5px;
+    }
+   .lugarEnvios{
+       padding-left: 185px;
+   }
+   .orden2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px;
+    padding-right: 5px;
+   }
+}
+
+
