@@ -13,10 +13,13 @@ html{
 }
 .navegacion{
     background-color: #8CBA51;
-   
-    margin: 0% 0px 0px;
-    padding: 0% 0px 0px 0px;
+
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 
 .redes{
     background-color: #48c96f;
@@ -120,7 +123,12 @@ p{
     margin-right: 40px;
     margin-top: 20px;
 }
-
+.p--nosotros{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
 
 .p--envios{
     padding-left: 40px;
@@ -253,7 +261,7 @@ padding-right: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     padding: 10px 60px 90px ;
 }
 .orden div{
@@ -269,11 +277,7 @@ padding-right: 10px;
     margin-bottom: 10px;
     font-size: 20px;   
     }
-.orden strong{
-    margin: 0px;
-    padding: 0px;
-    color: #043808a4;
-}
+
 .orden a{
         text-decoration: none;
     }
@@ -297,11 +301,7 @@ padding-right: 10px;
 
 
 
-.finalContacto{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    }
+
 
 
 .pie {
@@ -316,7 +316,11 @@ padding-right: 10px;
         font-weight: bolder;
     }
 
-
+.pieAdapt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
     @keyframes fondoColor{
@@ -359,6 +363,10 @@ padding-right: 10px;
 .contenedorC{
 height: 530px;
 }
+.fotoMano{
+   margin-left: 525px;
+   
+}
 
 
 
@@ -371,6 +379,10 @@ height: 530px;
         justify-content:flex-start;
         padding: 10px 10px 10px ;
     }
+    .fotoMano{
+        margin-left: 250px;
+        
+     }
     .productosImg{
         width: 100px;
         height: 100px;
@@ -399,7 +411,13 @@ height: 530px;
     height: 420px;
     }
 
-
+.pieAdaptado{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    
+}
 }
 
 /*MEDIDA CELULAR*/
@@ -414,16 +432,11 @@ height: 530px;
     .menu li{
         display: inline-block;
     }
-.submenu{
-    display: none;
-    position: absolute;
-        justify-content: center;
-}
-.submenu li{
-    display:block;
-}
 
-
+.fotoMano{
+    margin-left: 70px;
+    
+ }
     .lugarEnvios{
         padding-left: 5px;
     }
@@ -453,5 +466,11 @@ height: 530px;
         .contenedorC{
             height: 200px;
             }
-
+           
+            .pieAdapt{
+                position:relative;
+                margin-top: 150px;
+                width: 100%;
+            }
+     
 }
