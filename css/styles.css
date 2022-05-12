@@ -132,3 +132,84 @@ html {
   border: 1px solid black;
   font-size: 15px;
   margin-left: 15px; }
+
+/*MEDIDA TABLET*/
+@media screen and (max-width: 768px) {
+  .orden {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px 10px 10px; }
+  .fotoMano {
+    margin-left: 250px; }
+  .productosImg {
+    width: 100px;
+    height: 100px; }
+  .espacio {
+    padding-left: 32px; }
+  .ordenTodo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px;
+    padding-right: 5px; }
+  .lugarEnvios {
+    padding-left: 185px; }
+  .orden2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px;
+    padding-right: 5px; }
+  .contenedorC {
+    height: 420px; }
+  .pieAdaptado {
+    position: absolute;
+    bottom: 0;
+    width: 100%; } }
+
+/*MEDIDA CELULAR*/
+@media screen and (max-width: 425px) {
+  .navegacion ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .menu li {
+    display: inline-block; }
+  .fotoMano {
+    margin-left: 70px; }
+  .lugarEnvios {
+    padding-left: 5px; }
+  .orden2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1px;
+    padding-right: 1px; }
+  .ordenTodo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1px;
+    padding-right: 1px; }
+  .enviar {
+    padding-left: 190px;
+    padding-top: 0px; }
+  .finalContacto {
+    position: absolute;
+    margin-bottom: 0px; }
+  .contenedorC {
+    height: 200px; }
+  .pieAdapt {
+    position: relative;
+    margin-top: 150px;
+    width: 100%; }
+  .menu li:hover ul {
+    display: block;
+    background-color: #8CBA51;
+    border: 1px solid #564a4a; }
+  .menu li ul {
+    position: relative;
+    left: 112px;
+    top: 0px; } }
