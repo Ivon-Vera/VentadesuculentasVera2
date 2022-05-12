@@ -300,10 +300,6 @@ padding-right: 10px;
 }
 
 
-
-
-
-
 .pie {
     background-color: #EE9494;
     text-align: center;
@@ -454,11 +450,11 @@ height: 530px;
         margin-left: 1px;
         padding-right: 1px;
     }
-    .enviar{
+.enviar{
         padding-left: 190px;
         padding-top: 0px;
     }
-    .finalContacto{
+.finalContacto{
         position: absolute;
         margin-bottom: 0px;
         
@@ -466,11 +462,22 @@ height: 530px;
         .contenedorC{
             height: 200px;
             }
-           
-            .pieAdapt{
-                position:relative;
-                margin-top: 150px;
-                width: 100%;
-            }
-     
+.pieAdapt{
+position:relative;
+margin-top: 150px;
+width: 100%;
+}
+.menu li:hover ul{
+display: block;
+background-color: #8CBA51;
+border: 1px solid #564a4a;
+
+}
+.menu li ul{
+position: relative;
+left: 112px;
+top: 0px;
+
+}
+
 }
